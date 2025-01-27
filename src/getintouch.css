@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: "Open Sans", sans-serif;
+  }
+  .contacts_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .tagline{
+    font-size: 15px;
+    background: linear-gradient(to left, #e70faa, #00c0fd);
+    -webkit-background-clip: text; /* Clips the background to the text */
+    -webkit-text-fill-color: transparent; /* Makes the text transparent to show the gradient */
+    text-fill-color: transparent;
+  }
+  .icon_container{
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+  }
+  .icon_container.react_icons{
+  height: 15px; 
+  width: 15px;
+  }
+

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.techstack{
+    width: 100%;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+}
+.techstack h1{
+    color: #42446E;
+    font-size: 25px;
+}
+.techstack h2{
+    color: #666666;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.skill_container{
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    text-align: center;
+}
+
+.react_icons{
+    height: 45px;
+    width: 45px;
+    padding: 3px;
+    font-weight: bolder;
+}
+.html{
+    color: #F26522;
+}
+.css{
+    color: #264DE4;
+}
+.js{
+    color: #F7DF1E;
+}
+.react{
+    color: #61DAFB;
+    font-weight: bold;
+}
+.java{
+    color: #B00040;
+}
+.nodejs{
+    color: #339933;
+}
+.SQL{
+    color: #F29111;
+}
+.express{
+    color: #4A4A4A;
+    
+}
+.mongoDB{
+    color: #47A248;
+}
+.jira{
+    color: #2684FF;
+}
