@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+  }
+  
+  .project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  .main_title{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+  }
+  .main_title h1{
+    color: #42446E;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  .main_title h3{
+    color: #666666;
+    font-weight: lighter;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-content {
+    padding: 15px;
+  }
+  
+  .project-content h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .project-content p {
+    margin: 0 0 10px;
+    color: #555;
+    font-size: 0.9rem;
+  }
+  
+  .project-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .project-links a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  .project-links a:hover {
+    color: #0056b3;
+  }
+  

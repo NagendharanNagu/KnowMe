@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr 2fr);
+  padding: 20px;
+  gap: 10px;
+  align-items: center;
+  
+}
+.nav_container .nav_left {
+  background: linear-gradient(to left, #00c0fd, #e70faa);
+  -webkit-background-clip: text; /* Clips the background to the text */
+  -webkit-text-fill-color: transparent; /* Makes the text transparent to show the gradient */
+  text-fill-color: transparent;
+  font-size: 12px;
+}
+
+.nav_container .name_container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  gap: 30px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #666666;
+  align-items: center;
+}
+.nav_container .name_container a{
+  text-decoration: none;
+  color: #666666;
+}
+.nav_container .name_container a:hover{
+  cursor: pointer;
+}
+
+.name_container .react_icons{
+  height: 30px;
+  width: 30px;
+}
+.name_container .react_icons:hover{
+  transform: translateY(-10px);
+}
+.github{
+  color: grey;
+}
+.linkedin{
+  color: #0077B5;
+}
