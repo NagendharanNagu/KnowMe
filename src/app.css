@@ -15,23 +15,16 @@
     display: flex;
     justify-content: flex-end;
 }
-.toggle button{
+.toggle a{
     height: 40px;
     width: 40px;
-    /* border-radius: 50%; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.button.lightmode{
-    background-color: grey;
-    color: #fff;
-    font-size: 15px;
-    font-weight: bolder;
+.lightmode a{
+    color: yellow;
 }
-.button.darkmode{
-    background-color: yellow;
+.darkmode a{
     color: black;
-    font-size: 15px;
-    font-weight: bolder;
 }

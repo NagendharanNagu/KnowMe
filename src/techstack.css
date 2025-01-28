@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.stack_container{
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
 .techstack{
     width: 100%;
     font-family: "DM Sans", sans-serif;

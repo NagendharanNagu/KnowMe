@@ -97,12 +97,10 @@ const Techstack = () => {
     }
   };
   return (
-    <div className="Stack_container" id="techstack">
+    <div className="stack_container" id="techstack">
       <div className="techstack">
         <h1>My Tech Stack</h1>
         <h2>Technologies I've been working with</h2>
-        <br />
-        <br />
       </div>
       <div className="skill_container">
           {skills.map((value, id) => {

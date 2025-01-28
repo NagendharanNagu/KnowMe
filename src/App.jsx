@@ -11,26 +11,23 @@ import { IoMoonOutline } from "react-icons/io5";
 
 
 const App = () => {
-  // const[isDarkMode, setIsDarkMode]=useState(true)
-  // const[light, setLight]=useState(true)
+  const[isDarkMode, setIsDarkMode]=useState(true)
+  const[light, setLight]=useState(true)
 
-  // const toggleMode = ()=>{
-  //   setIsDarkMode((prevMode) => !prevMode);
-  // }
-  // const toggleLight = ()=>{
-  //   setLight((prevLight) => !prevLight);
-  // }
-  // app ${isDarkMode? 'light':'dark'}
+  const toggleMode = ()=>{
+    setIsDarkMode((prevMode) => !prevMode);
+  }
+  const toggleLight = ()=>{
+    setLight((prevLight) => !prevLight);
+  }
+  
   return (
-    <div className={``} >
-      {/* <div onClick={toggleMode} className="toggle">
-        <button onClick={toggleLight} className={`button ${light? 'lightmode':'darkmode'}`}>{light? <IoMoonOutline />: <IoSunnyOutline />}</button>
-      </div> */}
-        <Nav/>
+    <div className={`app ${isDarkMode? 'light':'dark'}`} >
+        <Nav toggleMode={toggleMode} toggleLight={toggleLight} light={light} />
         <Home/>
         <Techstack/>
         <MyWork/>
-        <Getintouch/>
+        {/* <Getintouch/> */}
         <Footer/>
     </div>
   )

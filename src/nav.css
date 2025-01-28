@@ -4,14 +4,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-.nav_container {
+.nav_container{
   width: 100%;
   display: grid;
   grid-template-columns: repeat(1, 1fr 2fr);
   padding: 20px;
   gap: 10px;
   align-items: center;
-  
+  position: sticky !important; 
+  top: 0;
+  z-index: 100;
+}
+.nav_container_lightbackground{
+  background-color: white;
+}
+.nav_container_darkbackground{
+  background-color: #1c1c1c;
 }
 .nav_container .nav_left {
   background: linear-gradient(to left, #00c0fd, #e70faa);
@@ -51,4 +59,7 @@
 }
 .linkedin{
   color: #0077B5;
+}
+.bulb{
+  color: #F7DC6F;
 }

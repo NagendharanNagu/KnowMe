@@ -4,7 +4,12 @@
     padding: 0;
     box-sizing:border-box ;
   }
-  
+  .Project_Details{
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
   .project-list {
     display: flex;
     justify-content: center;
