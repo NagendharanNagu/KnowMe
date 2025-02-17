@@ -6,12 +6,13 @@
 }
 .stack_container{
     height: 70vh;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
 }
 .techstack{
-    width: 100%;
+    
     font-family: "DM Sans", sans-serif;
     text-align: center;
 }

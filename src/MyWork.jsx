@@ -22,8 +22,7 @@ const projects = [
     livePreview: "#",
     viewCode: "https://github.com/NagendharanNagu/Nagendharan-Shanmugam-Todolist",
     image: "src/assets/project2.png",
-  },  
-  
+  },   
 ];
 
 function MyWork() {
